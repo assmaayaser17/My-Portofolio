@@ -6,7 +6,7 @@ const projects: {
   imgUrl: string;
   techStack: string[];
   githubUrl: string;
-  liveUrl: string;
+  // liveUrl: string;
 }[] = [
   {
   title: "Flower E-Commerce",
@@ -51,7 +51,7 @@ The project was deployed on Vercel for optimal performance and SEO.`,
     "Team Work"
   ],
   githubUrl: "https://github.com/assmaayaser17/e-commerce-flower-shop",
-  liveUrl: "https://florist-nextjs-neon.vercel.app/en"
+  // liveUrl: "https://florist-nextjs-neon.vercel.app/en"
 },
 {
   title: "Fitness App",
@@ -88,7 +88,7 @@ My Contributions:
     "Custom Hook"
   ],
   githubUrl: "https://github.com/assmaayaser17/super-fitness",
-  liveUrl: "https://nextjs-home-away-production.vercel.app/"
+  // liveUrl: "https://nextjs-home-away-production.vercel.app/"
 },
 
   {
@@ -97,7 +97,7 @@ My Contributions:
     imgUrl: '/project3.png',
     techStack: ['Nextjs','Typescript',"ServerAction","TailwindCss","Clean-Code","Clean-Structure","Next-Auth"],
     githubUrl: "https://github.com/assmaayaser17/Online-Exam-Opt",
-    liveUrl: "https://twitch-clone-rsshonjoydas.vercel.app/"
+    // liveUrl: "https://twitch-clone-rsshonjoydas.vercel.app/"
   },
 
   {
@@ -106,8 +106,7 @@ My Contributions:
   
   imgUrl: "/project4.png",
   techStack: ["Laravel", "Blade", "Tailwind CSS", "PHP", "MySQL","Translation","Admin-Dashboard", "Responsive Design"],
-  githubUrl: "https://github.com/assmaayaser17/Farm-website", 
-  liveUrl: "https://your-farm-site.com", 
+  githubUrl: "https://github.com/assmaayaser17/Farm-website"
 },
 
 
@@ -119,7 +118,7 @@ export function Projects() {
       <h2 className="text-3xl sm:text-4xl font-bold mb-8 text-center">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {projects.map((project, index) => {
-          return <ProductCard key={index} {...project} number={index + 1} />;
+          return <ProductCard liveUrl={""} key={index} {...project} number={index + 1} />;
         })}
       </div>
     </div>

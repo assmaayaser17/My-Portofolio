@@ -27,7 +27,7 @@ export function ProductCard({
   imgUrl,
   techStack,
   githubUrl,
-  liveUrl,
+  // liveUrl,
   number,
 }: ProjectCardProp) {
 
@@ -65,11 +65,11 @@ export function ProductCard({
         </div>
       </CardContent>
       <CardFooter
-        className={`border-t flex items-center pt-4 ${
-          liveUrl ? "justify-between" : "justify-end"
-        }`}
+        className={`border-t flex items-center pt-4 
+          // liveUrl ? "justify-between" : "justify-end"
+        `}
       >
-        {liveUrl && (
+        {/* {liveUrl && (
           <Button asChild variant="default" size="sm">
             <Link
               href={liveUrl}
@@ -81,7 +81,7 @@ export function ProductCard({
               View Live
             </Link>
           </Button>
-        )}
+        )} */}
         <Button asChild variant="ghost" size="icon">
           <Link
             href={githubUrl}
