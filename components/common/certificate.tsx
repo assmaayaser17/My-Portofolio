@@ -1,6 +1,6 @@
 import { Card, CardContent } from "../ui/card";
 import { Badge } from "../ui/badge";
-import { SiScrimba, SiUdemy } from "react-icons/si";
+import { SiUdemy } from "react-icons/si";
 import { ScrollArea } from "@/components/ui/scroll-area";
 
 const certifications: { name: string; date: string; url: string }[] = [

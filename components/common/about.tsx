@@ -38,16 +38,6 @@ export function About() {
         <span className="text-2xl">{highlight.emoji}</span>
         <p className="text-muted-foreground">
           {highlight.text}{" "}
-          {/* {highlight?.link && (
-            <Link
-              href={highlight.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 font-semibold hover:underline hover:text-blue-800 transition duration-200"
-            >
-              Visit my LeetCode profile 🚀
-            </Link>
-          )} */}
         </p>
       </div>
     ))}
