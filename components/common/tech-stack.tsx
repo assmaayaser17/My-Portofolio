@@ -1,5 +1,4 @@
-import { CgVercel } from "react-icons/cg";
-import { DiDocker } from "react-icons/di";
+import { CgVercel } from "react-icons/cg"
 import { FaNodeJs } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import {
@@ -13,12 +12,8 @@ import {
   SiNextdotjs,
   SiExpress,
   SiMongodb,
-  SiNestjs,
-  SiJsonwebtokens,
   SiPostman,
-  SiSwagger,
   SiRedux,
-  SiJest,
 } from "react-icons/si";
 
 const frontEndStack = [

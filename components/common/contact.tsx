@@ -74,7 +74,7 @@ export function Contact() {
           </>
         );
       }
-    } catch (_) {
+    } catch {
       toast.error(
         <>
           Failed to send message. You can contact me directly at{" "}
