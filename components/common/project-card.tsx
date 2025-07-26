@@ -9,7 +9,7 @@ import {
 import Image from "next/image";
 import { Button } from "../ui/button";
 import Link from "next/link";
-import { ExternalLinkIcon, Github } from "lucide-react";
+import { Github } from "lucide-react";
 
 type ProjectCardProp = {
   title: string;
