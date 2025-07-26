@@ -11,8 +11,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 
 export const metadata: Metadata = {
-  title: "Mohammd El-Sayed - Full Stack Developer",
-  description: "Mohammad El-Sayed is a Full Stack Developer with expertise in building scalable web applications using modern technologies.",
+  title: "assmaayaser - FrontEnd Developer",
+  description: "Assmaa Yaser is a Frontend Developer with expertise in building scalable web applications using modern technologies.",
 };
 
 export const viewport = {
