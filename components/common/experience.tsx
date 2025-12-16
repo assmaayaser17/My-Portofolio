@@ -26,6 +26,43 @@ const experiences = [
 },
 
 {
+  company: "Space Tech",
+  role: "React Instructor (Part-Time)",
+  period: "Part-Time",
+   location: "Onsite – Alexandria",
+  responsibilities: [
+    "Delivered React training sessions focusing on core concepts, hooks, and component-based architecture.",
+    "Mentored students through hands-on projects and real-world React use cases.",
+    "Explained modern React patterns, state management, and best practices.",
+    "Reviewed students’ code and provided constructive feedback to improve code quality.",
+    "Guided learners in building scalable and reusable React components.",
+    "Assisted students in understanding frontend architecture and clean code principles.",
+    "Supported learners with debugging, problem-solving, and career guidance in frontend development."
+  ]
+},
+
+{
+  company: "Matajer Qesa Store",
+  role: "Frontend Developer",
+  period: "6 Months",
+  location: "Remote – Suadiarabia",
+  responsibilities: [
+    "Worked on a real-world marketing platform project called Tatheer, built using Next.js.",
+    "Developed and maintained modern, responsive user interfaces using Next.js and React.",
+    "Contributed to building a platform that enables influencers to create and manage marketing campaigns for clients through the system.",
+    "Implemented dynamic routing and optimized navigation using Next.js routing features.",
+    "Integrated frontend components with backend APIs to support influencer–client interactions.",
+    "Built reusable and scalable UI components following clean code and modular architecture principles.",
+    "Collaborated closely with designers and backend developers to translate business requirements into functional UI.",
+    "Handled state management and data flow across the application to ensure a smooth user experience.",
+    "Focused on performance optimization and SEO best practices within Next.js.",
+    "Participated in code reviews and maintained consistent code quality across the project.",
+    "Gained hands-on experience in frontend architecture for marketing platforms and influencer-based systems.",
+    "Used Git for version control and collaborated within a team-based development workflow."
+  ]
+},
+
+{
   company: "OonTech Company ",
   role: "React Instructor (Contract)",
   period: "Present",
